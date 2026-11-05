@@ -1,0 +1,63 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.card1 {
+    background-color: lightgreen;
+}
+
+.card2 {
+    background-color: lightblue;
+}
+
+.card3 {
+    background-color: lightgray;
+}
+
+.card4 {
+    background-color: lightpink;
+}
+
+.card5 {
+    background-color: lightseagreen;
+}
+
+.card6 {
+    background-color: lightsalmon;
+}
+
+.card7 {
+    background-color: rgb(184, 2, 184);
+}
+
+.card8 {
+    background-color: lightslategrey;
+}
+
+img {
+    width: 100%;
+}
+
+.cart {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: auto;
+}
+
+span {
+    margin-bottom: 10px;
+}
